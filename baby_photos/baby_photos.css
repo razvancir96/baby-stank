@@ -1,0 +1,73 @@
+.main-wrapper {
+	margin: 0 15%;
+	padding: 2%;
+	background-color: rgba(254, 228, 236, 1);
+	min-height: 90vh;
+}
+
+.scrollable-component {
+	overflow-y: scroll;
+	max-height: 90vh;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.baby-image {
+	text-align: center;
+	background-color: rgb(255, 236, 229);
+	color: rgb(136, 48, 13);
+	border: 2px solid rgb(136, 48, 13);
+	margin: 10px;
+	padding: 10px;
+}
+
+.baby-image img{
+	height: 200px;
+	width: auto;
+}
+
+.upload-date {
+	font-size: 0.8rem;
+}
+
+.login-message {
+	text-align: center;
+	color: rgb(197, 41, 88);
+}
+
+.add-form {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.add-form input {
+	width: 250px;
+	border-radius: 20px;
+	border: none;
+	font-size: 1rem;
+	padding: 0.2em;
+	margin-bottom: 10px;
+}
+
+label {
+	color: rgb(197, 41, 88);
+}
+
+input[name="add_image"] {
+	text-decoration: none;
+	background-color: rgba(242, 119, 156, 1);
+	font-family: 'Margarine', cursive;
+	color: white;
+	font-size: 1rem;
+	padding: 0.3em;
+	border-radius: 10px;
+	border: 2px solid rgba(197, 41, 88, 1);
+	text-shadow: none;
+	margin: 0;
+}
+
+input[type="file"] {
+	background-color: rgb(254, 228, 236);
+	color: rgb(197, 41, 88);
+}

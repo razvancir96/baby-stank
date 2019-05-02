@@ -1,0 +1,59 @@
+.color-palette {
+	margin: 0;
+	width: 100%;
+	min-height: 50px;
+	position: fixed;
+	background-color: rgb(254, 228, 236);
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	z-index: 1;
+}
+
+.red{
+	background-color: red;
+}
+
+.green{
+	background-color: green;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.pink{
+	background-color: pink;
+}
+
+.orange{
+	background-color: orange;
+}
+
+.purple{
+	background-color: purple;
+}
+
+.black{
+	background-color: black;
+}
+
+.circle {
+	height: 50px;
+	width: 50px;
+	margin: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#canvas {
+	background-color: white;
+	display: block;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}

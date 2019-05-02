@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-flow: column nowrap;
+	text-align: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url('media/baby1_compressed.jpg');
+	background-size: cover;
+}
+
+.logo {
+	margin-top: 0;
+	font-family: 'Margarine', cursive;
+	font-size: 2rem;
+	color: rgba(197, 41, 88, 1);
+}
+
+.form-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.login-form {
+	width: 40%;
+	min-width: 400px;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.login-form label, .login-form input {
+	width: 100%;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.login-form  input{
+	font-size: 1.2rem;
+	margin: 0.5em 0.5em;
+	padding: 1.2em;
+	border-radius: 10px;
+	border-color: rgba(197, 41, 88, 1);
+	color: rgba(197, 41, 88, 1);
+}
+
+.login-form  input[type="submit"]{
+	background-color: rgba(242, 119, 156, 1);
+	font-family: 'Margarine', cursive;
+	color: white;
+	font-size: 1.4rem;
+	padding: 0.8em;
+	cursor: pointer;
+}
+
+.login-form .login-input::placeholder {
+	color: rgba(197, 41, 88, 0.8);
+}
+
+.register-link {
+	font-size: 1.2rem;
+	color: white;
+	text-shadow: 2px 2px rgba(197, 41, 88, 1);
+}
+
+.register-link a {
+	text-decoration: none;
+	background-color: rgba(242, 119, 156, 1);
+	font-family: 'Margarine', cursive;
+	color: white;
+	font-size: 1.2rem;
+	padding: 0.5em;
+	border-radius: 10px;
+	border: 2px solid rgba(197, 41, 88, 1);
+	text-shadow: none;
+}

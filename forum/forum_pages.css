@@ -1,0 +1,95 @@
+.main-wrapper {
+	margin: 0 15%;
+	padding: 2%;
+	background-color: rgb(254, 228, 236);
+	min-height: 90vh;
+}
+
+.main-wrapper h1, .main-wrapper h2 {
+	color: rgb(197, 41, 88);
+	margin: 10px 0;
+}
+
+.post-wrapper {
+	max-height: 90vh;
+	overflow-y: scroll;
+}
+
+.post {
+	background-color: rgb(227, 253, 242);
+	border-radius: 10px;
+	border: 2px solid rgb(31, 151, 100);
+	color: rgb(9, 93, 57);
+	margin: 10px;
+	padding: 10px;
+}
+
+.user-post {
+	background-color: rgb(254, 228, 236);
+}
+
+.post h3 {
+	margin: 0;
+	font-size: 1rem;
+}
+
+.post .post-content {
+	margin: 10px 0;
+}
+
+.post .date {
+	margin: 0;
+	font-size: 0.8rem;
+}
+
+.main-register-link p {
+	text-align: center;
+	color: rgb(197, 41, 88);
+	margin: 20px;
+}
+
+.register-link p {
+	text-align: center;
+	color: white;
+}
+
+.main-register-link a {
+	text-decoration: none;
+	background-color: rgba(242, 119, 156, 1);
+	font-family: 'Margarine', cursive;
+	color: white;
+	font-size: 1rem;
+	padding: 0.3em;
+	border-radius: 10px;
+	border: 2px solid rgba(197, 41, 88, 1);
+	text-shadow: none;
+}
+
+input[type="submit"] {
+	text-decoration: none;
+	background-color: rgba(242, 119, 156, 1);
+	font-family: 'Margarine', cursive;
+	color: white;
+	font-size: 1rem;
+	padding: 0.3em;
+	border-radius: 10px;
+	border: 2px solid rgba(197, 41, 88, 1);
+	text-shadow: none;
+	margin: 0;
+	width: 100px;
+}
+
+form {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+textarea {
+	width: 300px;
+	height: 150px;
+	border-radius: 20px;
+	color: rgba(197, 41, 88, 1);
+	font-size: 1.2rem;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}

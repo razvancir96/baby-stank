@@ -1,0 +1,38 @@
+<header class="header">
+
+	<div class="header-items">
+		<div class="logo"><a href="http://localhost/proiect_pw/index.php">Baby Stank</a></div>
+		<?php 
+			if (isset($_SESSION['username'])) {
+				echo '<div class="user-profile">
+						<p>Salut, ' . $_SESSION['username'] . '!</p>
+						<form>
+							<input type="submit" name="logout" value="Logout">
+						</form>
+					</div>';
+			} else {
+				echo '<div class="register-link center not-logged-in">
+		            <p>Nu esti logat.</p>
+		            <div class="login-button">
+		            	<a href="http://localhost/proiect_pw/login.php">Login</a>
+		            </div>
+	            </div>';
+			}
+
+			// logout button
+			if (isset($_GET['logout'])) {
+				session_destroy();
+				header('Location:http://localhost/proiect_pw/index.php');
+			}
+		?>
+	</div>
+</header>
+
+<nav class="navbar">
+	<div class="navbar-items">
+		<div class="item" id="item1"><a href="http://localhost/proiect_pw/baby_photos/baby_photos.php">Album foto</a></div>
+		<div class="item" id="item2"><a href="http://localhost/proiect_pw/deseneaza/deseneaza.php">Deseneaza</a></div>
+		<div class="item" id="item3"><a href="http://localhost/proiect_pw/magazin/magazin.php">Magazin</a></div>
+		<div class="item" id="item4"><a href="http://localhost/proiect_pw/forum/forum.php">Forum</a></div>
+	</div>
+</nav>
